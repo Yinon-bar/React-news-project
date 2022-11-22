@@ -1,14 +1,48 @@
 .Header {
-  background-color: #008cba;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #008cba;
+  color: #fff;
   width: 100%;
 }
 
-.Container {
-  width: 1400px;
+.Header .logo {
+  display: flex;
+  flex: 50%;
+}
+
+.Header nav {
+  flex: 30%;
+  height: 100%;
+}
+
+.Header ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.Header ul li {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.Header ul a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 0.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Header ul a:hover {
+  background-color: #fff;
+  color: #008cba;
 }

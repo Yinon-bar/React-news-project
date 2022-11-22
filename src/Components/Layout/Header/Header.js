@@ -4,7 +4,22 @@ function Header() {
   return (
     <div className="Header">
       <div className="Container">
-        <h1>Header</h1>
+        <div className="logo">
+          <h1>Yinon Bar News</h1>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Register</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );
